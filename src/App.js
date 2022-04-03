@@ -6,6 +6,7 @@ import {Header} from './header/header'
 import {SectionPortfolio} from './sectionPortfolio/sectionPortfolio'; 
 import {SectionDescription} from './sectionDescription/SectionDescription';
 import {SectionContact} from './sectionContact/SectionContact';
+import {Footer} from './footer/Footer'
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
       <SectionContact>
         
       </SectionContact>
+
+      <Footer>
+        
+      </Footer>
       
     </React.Fragment>
   );
