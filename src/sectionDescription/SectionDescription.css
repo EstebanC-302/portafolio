@@ -1,0 +1,23 @@
+.lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+} 
+
+.divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+    border-radius:1rem;
+    border-color: #2c3e50 !important;
+}
+
+.btn {
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+}
