@@ -3,7 +3,9 @@
 import React from 'react';
 import {Navbar} from './navbar/navbar'
 import {Header} from './header/header'
-import {SectionPortfolio} from './sectionPortfolio/sectionPortfolio';
+import {SectionPortfolio} from './sectionPortfolio/sectionPortfolio'; 
+import {SectionDescription} from './sectionDescription/SectionDescription';
+import {SectionContact} from './sectionContact/SectionContact';
 
 function App() {
   return (
@@ -20,6 +22,13 @@ function App() {
 
       </SectionPortfolio>
 
+      <SectionDescription>
+
+      </SectionDescription> 
+
+      <SectionContact>
+        
+      </SectionContact>
       
     </React.Fragment>
   );
