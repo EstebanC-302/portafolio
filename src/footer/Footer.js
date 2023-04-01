@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faLinkedinIn, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import './Footer.css'
 
 function Footer () {
@@ -18,9 +20,10 @@ function Footer () {
                     {/* <!-- Footer Social Icons--> */}
                     <div className="col-lg-4 mb-5 mb-lg-0">
                         <h4 className="text-uppercase mb-4">Redes Sociales</h4>
-                        <a className="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com" target="blank_"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a className="btn btn-outline-light btn-social mx-1" href="https://twitter.com/?lang=es" target="blank_"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a className="btn btn-outline-light btn-social mx-1" href="https://ar.linkedin.com" target="blank_"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a className="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com" target="blank_"><FontAwesomeIcon icon={faFacebook}/></a>
+                        <a className="btn btn-outline-light btn-social mx-1" href="https://twitter.com/?lang=es" target="blank_"><FontAwesomeIcon icon={faTwitter}/></a>
+                        <a className="btn btn-outline-light btn-social mx-1" href="https://ar.linkedin.com" target="blank_"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                        <a className="btn btn-outline-light btn-social mx-1" href="https://ar.linkedin.com" target="blank_"><FontAwesomeIcon icon={faInstagram}/></a>
                     </div>
                 </div>
             </div>
