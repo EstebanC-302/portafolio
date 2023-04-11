@@ -11,7 +11,7 @@ function Navbar () {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <li><a className="nav-link active" aria-current="page" href="#portafolio">Portafolio</a></li>
+                        <li><a className="nav-link active" aria-current="page" href="#proyecto">Proyectos</a></li>
                         <li><a className="nav-link" href="#tecnologia">Tecnologías</a></li>
                         <li><a className="nav-link" href="#about">Acerca de mi</a></li>
                         <li><a className="nav-link" href="#contact">Contacto</a></li>
