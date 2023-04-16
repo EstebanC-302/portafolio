@@ -24,7 +24,7 @@ function SectionDescription () {
                 {/* <!-- About Section Button--> */}
                 <div className="text-center mt-4">
                         <button>
-                            <a href="https://drive.google.com/file/d/1MS7OKFpkgwp9rmjQuMN_xS9yzqfZKPn1/view?usp=share_link" target="blank_" className="btn btn-xl btn-outline-light">
+                            <a href="https://drive.google.com/file/d/1MS7OKFpkgwp9rmjQuMN_xS9yzqfZKPn1/view?usp=share_link" target="blank_" className="btn btn-xl">
                                 <i className="fas fa-download mr-2"></i>
                                 Curriculum
                             </a>

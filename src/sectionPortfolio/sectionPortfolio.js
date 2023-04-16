@@ -1,6 +1,11 @@
 import React from "react";
-import './sectionPortfolio.css'
-
+import './sectionPortfolio.css';
+import ImagenContador from '../imagenes/Contador.png'
+import ListaTodos from '../imagenes/ListaTodo.png'
+import NetflixClon from '../imagenes/NetflixClon.png'
+import ReproductorAudio from '../imagenes/ReproductorAudio.png'
+import FitGym from '../imagenes/FitGym.png'
+import Dashnoard from '../imagenes/Dashboad.png'
 
 
 function SectionPortfolio () {
@@ -22,9 +27,12 @@ function SectionPortfolio () {
                         <a href="https://soft-frangipane-db03e9.netlify.app" target="_blank" rel="noreferrer"> 
                         <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                                <div className="overlay ">
+                                    <p className="h4 text-white">Contador</p>
+                                    <p className="textmuted">React Js, Htlm, Css3, Javascript.</p>
+                                </div>
                             </div>
-                            <img className="img-fluid" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="" />
+                            <img className="img-fluid" src={ImagenContador} alt="" />
                         </div>
                         </a>
                     </div>
@@ -33,9 +41,12 @@ function SectionPortfolio () {
                         <a href="https://curious-dieffenbachia-92c401.netlify.app/" target="_blank" rel="noreferrer">
                         <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                                <div className="overlay ">
+                                    <p className="h4 text-white">Lista de Tareas</p>
+                                    <p className="textmuted">React Js, Htlm, Css3, Javascript..</p>
+                                </div>
                             </div>
-                            <img className="img-fluid" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="" />
+                            <img className="img-fluid" src={ListaTodos} alt="" />
                         </div> 
                         </a>
                     </div>
@@ -44,9 +55,12 @@ function SectionPortfolio () {
                         <a href="https://netflix-clon-eosin.vercel.app/auth" target="_blank" rel="noreferrer">
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                    <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                                    <div className="overlay ">
+                                        <p className="h4 text-white">Netflix Clon</p>
+                                        <p className="textmuted">React, Tailwind CSS, Next.JS, Prisma, MongoDB, NextAuth ,Vercel Git, Github</p>
+                                    </div>
                                 </div>
-                                <img className="img-fluid" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="" />
+                                <img className="img-fluid" src={NetflixClon} alt="" />
                             </div>
                         </a>
                     </div>
@@ -55,9 +69,12 @@ function SectionPortfolio () {
                         <a href="https://stately-maamoul-5a67c0.netlify.app/" target="_blank" rel="noreferrer"> 
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                    <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                                    <div className="overlay ">
+                                        <p className="h4 text-white">Reproductor de Audio</p>
+                                        <p className="textmuted">Html, Css3, Javascript. Git, Github</p>
+                                    </div>
                                 </div>
-                                <img className="img-fluid" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="" />
+                                <img className="img-fluid" src={ReproductorAudio} alt="" />
                             </div>
                         </a>
                         
@@ -67,9 +84,12 @@ function SectionPortfolio () {
                         <a href="https://lovely-hamster-ea0253.netlify.app/" target="_blank" rel="noreferrer">
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                    <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                                    <div className="overlay ">
+                                        <p className="h4 text-white">FitGym</p>
+                                        <p className="textmuted">React Js, Css3, Javascript. EmailJs, Git , Github</p>
+                                    </div>
                                 </div>
-                                <img className="img-fluid" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="" />
+                                <img className="img-fluid" src={FitGym} alt="" />
                             </div>
                         </a>
                     </div>
@@ -78,13 +98,17 @@ function SectionPortfolio () {
                         <a href="https://dashing-stroopwafel-a52d8c.netlify.app" target="_blank" rel="noreferrer">
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                    <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                                    <div className="overlay ">
+                                        <p className="h4 text-white">Dashboard</p>
+                                        <p className="textmuted">Css3, JavaScript React Router V6, Full Calendar, Material React Table, React ECharts, Git, Github</p>
+                                    </div>
                                 </div>
-                                <img className="img-fluid" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="" />
+                                <img className="img-fluid" src={Dashnoard} alt="" />
                             </div>
                         </a>
                         
                     </div>
+                    
                 </div>
             </div>
         </section>
